@@ -1,0 +1,3 @@
+include ':BookLib'
+include ':app'
+rootProject.name = "YCReader"
