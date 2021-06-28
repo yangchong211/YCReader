@@ -1,3 +1,3 @@
-include ':BookLib'
+include ':MapLib'
 include ':app'
-rootProject.name = "YCReader"
+rootProject.name = "YCMapHelper"
