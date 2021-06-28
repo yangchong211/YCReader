@@ -1,3 +1,4 @@
 include ':MapLib'
 include ':app'
 rootProject.name = "YCMapHelper"
+include ':MapApi'
