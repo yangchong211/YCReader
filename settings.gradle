@@ -3,3 +3,6 @@ include ':app'
 rootProject.name = "YCMapHelper"
 include ':MapApi'
 include ':MapRipple'
+include ':MapGoogle'
+include ':MapBaidu'
+include ':MapGaode'

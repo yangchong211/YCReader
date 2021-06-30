@@ -30,4 +30,16 @@
         android:gravity="center"
         android:text="1.使用" />
 
+
+    <TextView
+        android:id="@+id/tv_3"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:text="3.使用谷歌地图" />
+
 </LinearLayout>

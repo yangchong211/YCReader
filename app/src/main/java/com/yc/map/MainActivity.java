@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private TextView tv1;
     private TextView tv2;
+    private TextView tv3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +23,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         tv1.setOnClickListener(this);
         tv2 = findViewById(R.id.tv_2);
         tv2.setOnClickListener(this);
+        tv3 = findViewById(R.id.tv_3);
+        tv3.setOnClickListener(this);
     }
 
     @Override
@@ -32,6 +35,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.tv_2:
                 startActivity(new Intent(this,MapsActivity.class));
+                break;
+            case R.id.tv_3:
+                startActivity(new Intent(this,GoogleActivity.class));
                 break;
         }
     }

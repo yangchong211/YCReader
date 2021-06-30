@@ -7,7 +7,7 @@ android {
 
     defaultConfig {
         applicationId "com.yc.ycreader"
-        minSdkVersion 17
+        minSdkVersion 21
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
@@ -32,5 +32,8 @@ dependencies {
     implementation project(':MapRipple')
     implementation 'com.google.android.gms:play-services-maps:17.0.1'
 
-    //implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'com.yun:gmap:1.1.7'
+    implementation 'com.yun:baidumap:1.9.1'
+    implementation 'com.yun:gaodemap:2.3.8'
+
 }
