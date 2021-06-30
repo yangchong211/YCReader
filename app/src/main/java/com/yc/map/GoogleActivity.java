@@ -43,6 +43,7 @@ public class GoogleActivity extends AppCompatActivity {
     private MyGoogleMap myGoogleMap;
     private ILocationService iLocationService;
 
+
     @SuppressLint("CheckResult")
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
