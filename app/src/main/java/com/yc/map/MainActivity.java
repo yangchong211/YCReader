@@ -37,7 +37,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(new Intent(this,MapsActivity.class));
                 break;
             case R.id.tv_3:
-                startActivity(new Intent(this,GoogleActivity.class));
                 break;
         }
     }
